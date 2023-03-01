@@ -1,0 +1,21 @@
+Arrays:
+    Array is a Data Structure where we store similar elements.
+    The elements of an array are stored in a contiguous memory location.
+
+note: Array store only a fixed set of elements.
+
+Advantages:
+    1. It makes the code optimized.
+    2. We can get any data located at an index position.
+    3. Easy to manipulate data.
+
+Disadvantages:
+    1. We can store only the fixed size of elements in the array.
+
+
+Types of Array:
+    1. Single Dimensional Array
+    2. Multidimensional Array
+
+
+Single Dimensional Array:
