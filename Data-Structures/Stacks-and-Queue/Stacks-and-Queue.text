@@ -36,3 +36,52 @@ Application of Stack:
     4. Web browsers use stacks to keep track of the web pages you visit.
 
 
+Queue:
+    A Queue is defined as a linear data structure that is open at both ends and the operations are performed in First In First Out (FIFO) order.
+
+Characteristics of Queue:
+    1. Queue can handle multiple data.
+    2. We can access both ends.
+    3. They are fast and flexible. 
+
+Basic Operations on Stack:
+    1. Enqueue: The addition of an element at the end of the queue.
+    2. Dequeue: The removal of an element from the front of the queue.
+    3. IsEmpty: The checking of the queue if it is empty.
+    4. IsFull: The checking of the queue if it is full.
+    5. Peek: Obtaining the value of the front of the queue without      removing the element.
+    6. Push: It is used to insert a new element at the rear end of the queue in C++.
+    7. Pop: It is used to delete a new element at the front end of the queue in C++.
+    8. Emplace: It is used for the insertion of the new elements in the queue above the current rear element.
+    9. Swap: It is used for interchanging the contents of two containers in the reference.
+
+Implementation of Queue:
+    1.  Sequential allocation: A queue can be implemented using an array. It can organize a limited number of elements.
+    2.  Linked list allocation:  A queue can be implemented using a linked list. It can organize an unlimited number of elements.
+
+Applications of Queue:
+    1. ATM Booth Line
+    2. Ticket Counter Line
+    3. Key press sequence on the keyboard
+    4. CPU task scheduling
+    5. Waiting time of each customer at call centers.
+
+Advantages of Queue:
+    1. A large amount of data can be managed.
+    2. Operations such as insertion and deletion can be performed with ease.
+    3. Queues can be used in the implementation of other data structures.
+
+Disadvantages of Queue:
+    1. Searching an element takes O(N) time.
+    2. Limited Space.
+    3. The operations such as insertion and deletion of elements from the middle are time consuming.
+    4.  a new element can only be inserted when the existing elements are deleted from the queue.
+
+Types of Queues:
+    1.  Simple Queue: Simple queue also known as a linear queue is the most basic version of a queue. Here, insertion of an element i.e. the Enqueue operation takes place at the rear end and removal of an element i.e. the Dequeue operation takes place at the front end.
+
+    2.  Dequeue: Dequeue is also known as Double Ended Queue. As the name suggests double ended, it means that an element can be inserted or removed from both the ends of the queue unlike the other queues in which it can be done only from one end. Because of this property it may not obey the First In First Out property. 
+
+    3.  Priority Queue: This queue is a special type of queue. Its specialty is that it arranges the elements in a queue based on some priority. The priority can be something where the element with the highest value has the priority so it creates a queue with decreasing order of values. The priority can also be such that the element with the lowest value gets the highest priority so in turn it creates a queue with increasing order of values.
+
+    4.  Circular Queue:  In a circular queue, the element of the queue act as a circular ring. The working of a circular queue is similar to the linear queue except for the fact that the last element is connected to the first element. Its advantage is that the memory is utilized in a better way. This is because if there is an empty space i.e. if no element is present at a certain position in the queue, then an element can be easily added at that position.
